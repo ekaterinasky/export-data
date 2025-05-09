@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: max-content;
+    margin: auto;
+}
+.main h1 {
+    color: rgba(44, 129, 179, 0.568);
+    text-align: center;
+}
+.main input {
+    margin-top: 40px;
+}
+.main button {
+    width: max-content;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(44, 129, 179, 0.568);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid rgba(18, 18, 117, 0.377);
+    -webkit-box-shadow: -15px 14px 20px 0px rgba(34, 60, 80, 1);
+-moz-box-shadow: -15px 14px 20px 0px rgba(34, 60, 80, 1);
+box-shadow: -8px 8px 9px 0px rgba(34, 60, 80, 1);
+}
+.main button:hover {
+    background-color: rgba(44, 129, 179, 0.568);
+    cursor: pointer;
+}
+.main button:active {
+    transform: translate(0, 2px);
+}
